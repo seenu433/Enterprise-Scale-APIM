@@ -23,9 +23,9 @@ jobs:
         6.0.x
 
     # Run analyzers
-    - name: Run Microsoft Security DevOps Analysis
-      uses: microsoft/security-devops-action@preview
-      id: msdo
+  - name: Run Microsoft Security DevOps Analysis
+    uses: microsoft/security-devops-action@preview
+    id: msdo
 
   # Upload alerts to the Security tab
   - name: Upload alerts to Security tab
